@@ -24,11 +24,16 @@ El proyecto deberá seguir la siguiente estructura de paquetes:
 
 Seguir el siguiente proyecto base: https://github.com/idlm07/cvds-2024-II-parcial-2
 
-### PUNTO 2. 
+### PUNTO 1 - PRACTICO - PUEDEN HABLAR 
 Seguiendo la estructura de paquetes del proyecto cree los componentes necesarios para mostrar en una página web las respuestas del parcial teorico.
 
 Para ello deberá crear:
     - UNA TABLA CON SU NOMBRE.
     - UN MODELO PARA EL ORM CON SU NOMBRE
     - CONTROLADORES, CAPA DE SERVICIO, REPOSITORIO CON SU NOMBRE.
-    - POR ÚLTIMO, UNA PÁGINA WEB DONDE SE MUESTREN LAS RESPUESTAS A CADA PREGUNTA.
+    - POR ÚLTIMO, UNA PÁGINA WEB DONDE SE MUESTREN LAS RESPUESTAS A CADA PREGUNTA TRAYENDOLA DE LA BASE DE DATOS.
+    - ETC...
+
+### PUNTO 2 - TEORICO - NADIE PUEDE HABLAR
+Revisar el parcial teórico en la carpeta: ´docs/´
+Subir las respuestas en el archivo ´data.sql´
