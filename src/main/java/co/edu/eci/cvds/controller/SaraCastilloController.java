@@ -24,12 +24,11 @@ public class SaraCastilloController {
     public String mostrarRespuestas(Model model) {
         List<SaraCastillo> respuestas = saraCastilloService.obtenerRespuestasParcial();
         model.addAttribute("respuestas", respuestas);
-        return "respuestas"; // Suponiendo que tienes una vista llamada "respuestas"
+        return "respuestas"; 
     }
 
     @PostMapping("/respuestas")
     public String agregarRespuesta(@ModelAttribute SaraCastillo respuesta) {
         saraCastilloService.agregarRespuestaParcial(respuesta);
-        return "redirect:/sara-castillo/respuestas"; // Redirige a la página de respuestas después de agregar una nueva respuesta
-    }
+        return "redirect:/sara-castillo/respuestas"; 
 }
