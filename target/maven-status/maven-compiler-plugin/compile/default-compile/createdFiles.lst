@@ -1,0 +1,12 @@
+co\edu\eci\cvds\model\Configuration.class
+co\edu\eci\cvds\config\BasicAuthInterceptor.class
+co\edu\eci\cvds\controller\LoginController.class
+co\edu\eci\cvds\controller\SaraCastilloController.class
+co\edu\eci\cvds\SpringApplicationParcial.class
+co\edu\eci\cvds\config\WebConfig.class
+co\edu\eci\cvds\model\SaraCastillo.class
+co\edu\eci\cvds\repository\ConfigurationRepository.class
+co\edu\eci\cvds\repository\SaraCastilloRepository.class
+co\edu\eci\cvds\controller\ConfigurationController.class
+co\edu\eci\cvds\service\ConfigurationService.class
+co\edu\eci\cvds\service\SaraCastilloService.class

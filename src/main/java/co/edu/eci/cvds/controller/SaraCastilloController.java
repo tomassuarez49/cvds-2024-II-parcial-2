@@ -1,6 +1,6 @@
 package co.edu.eci.cvds.controller;
 
-import co.edu.eci.cvds.model.RespuestasParcial;
+import co.edu.eci.cvds.model.SaraCastillo;
 import co.edu.eci.cvds.service.SaraCastilloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,13 +22,13 @@ public class SaraCastilloController {
 
     @GetMapping("/respuestas")
     public String mostrarRespuestas(Model model) {
-        List<RespuestasParcial> respuestas = saraCastilloService.obtenerRespuestasParcial();
+        List<SaraCastillo> respuestas = saraCastilloService.obtenerRespuestasParcial();
         model.addAttribute("respuestas", respuestas);
         return "respuestas"; // Suponiendo que tienes una vista llamada "respuestas"
     }
 
     @PostMapping("/respuestas")
-    public String agregarRespuesta(@ModelAttribute RespuestasParcial respuesta) {
+    public String agregarRespuesta(@ModelAttribute SaraCastillo respuesta) {
         saraCastilloService.agregarRespuestaParcial(respuesta);
         return "redirect:/sara-castillo/respuestas"; // Redirige a la página de respuestas después de agregar una nueva respuesta
     }
